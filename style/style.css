@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* Google Font */
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Shared Style */
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.btn-primary{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    margin-top: 16px;
+}
+
+/* Header Section Start Here */
+header{
+    margin-top: 40px;
+}
+.logo-and-menu-area{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-area ul{
+    display: flex;
+}
+.menu-area ul li{
+    padding-left: 20px;
+}
+.menu-area li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.menu-area .fa-solid{
+    font-size: 20px;
+}
+
+
+/* Banner Section Start Here */
+.content-and-img-area{
+    display: flex;
+    justify-content: space-between;
+}
+.content-area{
+    max-width: 582px;
+    height: 270px;
+}
+.content-area .banner-title{
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin: 145px 0 16px 0;
+}
+.img-area{
+    margin-top: 80px;
+}
+.brand-area{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 100px;
+    margin: 70px 0 100px 0;
+}
